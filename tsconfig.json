@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "module": "commonjs", // node.js를 평범하게 사용하고 다양한 것을 import하거나 export할 수 있게 만듬
+        "target": "ES2015", //어떤 버젼의 Javascript로 컴파일 할 것인지 설정
+        "sourceMap": true // 소스맵은 원본소스와 변환된 소스를 맵핑해 주는 방법을 제안한 것
+    },
+    // 어떤 파일들이 컴파일 과정에 포함되는지
+    "include": ["index.ts"],
+    "exclude": ["node_modules"]
+}
